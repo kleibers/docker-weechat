@@ -53,7 +53,7 @@ RUN apk update ; \
     -DENABLE_TESTS=ON \
     -DCMAKE_INSTALL_PREFIX=/opt/weechat \
     -DENABLE_MAN=ON \
-    -DENABLE_HEADLESS=ON \
+    -DENABLE_HEADLESS=OFF \
     -DENABLE_JAVASCRIPT=OFF \
     -DENABLE_PHP=OFF \
   ; \
