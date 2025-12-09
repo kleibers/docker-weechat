@@ -24,7 +24,8 @@ RUN apk update ; \
     gettext-dev \
     gnutls-dev \
     libgcrypt-dev \
-    lua-dev \
+    lua5.4-dev \
+    lua5.4-libs \
     ncurses-dev \
     perl-dev \
     python3-dev \
