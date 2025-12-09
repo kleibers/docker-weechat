@@ -115,4 +115,4 @@ RUN apk update ; \
 EXPOSE 8000 8002
 
 STOPSIGNAL SIGQUIT
-ENTRYPOINT ["weechat-headless", "--dir", "/config"]
+ENTRYPOINT ["weechat", "--dir", "/config"]
