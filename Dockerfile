@@ -13,6 +13,7 @@ RUN apk update ; \
     build-base \
     curl \
     gpg \
+    gpg-agent \
     tcl-dev \
     tcl \
     tk-dev \
